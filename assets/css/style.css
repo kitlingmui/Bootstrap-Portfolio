@@ -1,3 +1,7 @@
+body{
+    background: url("../images/background.jpg");
+}
+
 html {
     position: relative;
     min-height: 100%;
