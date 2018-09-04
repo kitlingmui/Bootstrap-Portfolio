@@ -65,6 +65,7 @@ h1{
 #m {           
     width: 180px;
     height: 180px;
+    border-radius: 10px;
 }
 
 #submit{
