@@ -1,10 +1,107 @@
 body{
-    background: url("../images/background.jpg");
+    background-color: white
 }
+
 
 html {
     position: relative;
     min-height: 100%;
+}
+
+#myname{
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+}
+
+
+a{
+    font-family: 'Cinzel', serif;
+}
+
+.intro{
+    padding: 20px;
+    align-content:  center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+/* 
+.cir-container1, .cir-container2, .cir-container3 {
+    width: auto;
+    height: 100px; 
+    line-height: 200px;
+    border-radius:50%;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
+
+/* .cir-container1, .cir-container2, .cir-container3 {
+    height: 150px;
+    width: 150px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+} */
+
+.btn-round1, .btn-round2, .btn-round3 {
+    height: 150px;
+    width: 150px;
+    display: table-cell;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.btn-round1{
+    background-color: rgb(236, 3, 93);
+}
+
+.btn-round2{
+    background-color: aqua
+}
+
+.btn-round3{
+    background-color: rgb(137, 196, 21);
+}
+
+
+#middle-section{
+    /* background: url("../images/slide1.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 780px;
+    margin-top: 50px;
+}
+
+.left-section{
+    text-align:  right;
+    margin-top: 30px;
+}
+
+
+
+#footer-section{
+    background-color:  rgb(214, 11, 79);
+    width: 100%;
+    height: 200px;
+    margin-bottom: 0;
+}
+
+span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 .navbar-brand {
@@ -45,18 +142,26 @@ html {
 
 p{
     line-height: 50px;
+    font-size: 20px;
 }
 
-img {           
-    width: 260px;
-    height: 300px;
+.content{
+    width: 800px;
+    height: auto;
+}
+
+#photo-pic {
     float: left;
+    border-radius: 50%;
     margin-right: 10px;
     margin-bottom: 10px;
-  }
+    width: 400px;
+    height: auto;
+}
+
 
 h1{
-    font-size: 30px;
+    font-size: 80px;
     font-family: "Times New Roman";
     font-style: italic;
     font-weight: bold;
@@ -69,7 +174,7 @@ h1{
 }
 
 #submit{
-    background-color: rgb(106, 106, 255);
+    background-color: blue;
 }
 
 h2{
@@ -81,7 +186,7 @@ li{
     display: inline-block;
 }
 
-/* Set the fixed height of the footer here */
+/* Set the fixed height of the footer here
 #footer {
     margin-top: 50px;
     position: absolute;
@@ -91,4 +196,8 @@ li{
     background-color: lightgray;
     text-align: center;
     display: inline;
+} */
+
+.navbar-dark{
+    background-color: black;
 }

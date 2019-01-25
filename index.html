@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Cinzel" rel="stylesheet"> 
+
     <!-- My style-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -17,10 +20,11 @@
 
 <body>
     
+    <div class="container-fiuld">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(106, 106, 255);" >
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div>
-                <a class="navbar-brand" href="index.html">Kit Mui</a>
+                <a class="navbar-brand" id="myname" href="index.html">Kit Mui</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -29,52 +33,52 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link" href="index.html">ABOUT ME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="index.html">RESUME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="portfolio.html">PROJECT</a>
+                    </li>                
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
                     </li>
                 </ul>
-            </div>
-            <div class="navright">
-                <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a> 
-                <a href="https://www.linkedin.com/"><i class="fa fa-linkedin fa-2x"></i></a> 
-                <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x"></i></a> 
             </div>
         </nav>
 
 
         <!-- About Me -->
-        <div class="container">     
-            <h1>About Me</h1>
-            <div class=content>
-                <p>
-                    <img src="./assets/images/profilepic.jpg" alt="Kit Mui">
-                    My name is Kit Mui. I have graduated from University of California, Irvine with a B.S. degree in Information and Computer Science since 2005. 
-                    My major is Information and Computer Science. I have learned many programming langages and computer science subjects such as Java, C++, C#, Matlab, 
-                    SQL, networking security, data structure, graphic software etc. After graduating from UCI, I work in a networking company for 10 years. Currently, 
-                    I have been working in a manufacturer company as a programmer for about 2 years. I am professional in SQL and Java System. I have about 3 years 
-                    working experience on Oracle System and PHP.  
-                </p>
-                <p>
-                    I love programming. I like playing games and watching movies. I have always looked out for opportunities to enhance my personal skills. I am 
-                    very passion to learn on new programming languages and computer techniques. I am a trainable person and willing to research on any new technology. 
-                    My goal is to be a successful software developer.
-                </p>          
+        <div class="container-fiuld" id="middle-section">   
+            <div class="row intro" >
+                <div class="col-md-3" id="left-section">  
+                    <img src="./assets/images/profilepic.jpg" id="photo-pic" alt="Kit Mui"> 
+                </div>    
+                <div class="col-sm-1">  
+                </div> 
+                <div class="col-sm-7">                               
+                    <h1>About Me</h1>
+                    <div class="myitem" id="right-section">
+                      <button type="button" class="btn btn-default btn-lg btn-round1"><span">MY RESUME</span></button>
+                      <button type="button" class="btn btn-default btn-lg btn-round2"><span">MY PROJECT</span></button>
+                      <button type="button" class="btn btn-default btn-lg btn-round3"><span">MY SKILLS</span></button>
+                    </div>  
+                    <p>  
+                        I'm a programmer. I graduated from University of California, Irvine. I have about 3 years working experience on Oracle System and SQL programming.
+                        I love programming. I am very passion to learn on new programming languages and computer techniques. My goal is to be a successful software developer.
+                    </p> 
+                </div>        
             </div>
-        </div>
-        
-    <!-- Footer -->
-    <div class="card text-center" id="footer">   
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <h2>Copyright © 2018</h2>
-    </div>
 
+            <!-- Footer -->
+            <div class="container-fiuld" id="footer-section">      
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+        </div>    
+    </div> 
 
     <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
